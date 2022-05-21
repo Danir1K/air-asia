@@ -1,0 +1,73 @@
+.footer {
+    height: 146px;
+}
+
+.contacts__call {
+	font-size: 11px;
+    line-height: 20px;
+    text-align: end;
+    font-style: normal;
+}
+
+.social__link {
+    display: inline-block;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;
+    margin-right: 10px;
+}
+
+.social__link:last-child {
+    margin-right: 0;
+}
+
+.social {
+    position: relative;
+    top: 49px;
+    right: 265px;
+}
+
+
+
+.social__link--icon--telegram .social__elem{
+    background-image: url("../../img/telegram.png");
+}
+
+.social__link--icon--telegram .social__elem:hover {
+    background-image: url("../../img/telegram-hover.png");
+}
+
+
+.social__link--icon--vk .social__elem {
+    background-image: url("../../img/vk.png");
+}
+
+.social__link--icon--vk .social__elem:hover {
+    background-image: url("../../img/vk-hover.png");
+}
+
+
+.social__link--icon--facebook .social__elem {
+    background-image: url("../../img/facebook.png");
+}
+
+.social__link--icon--facebook .social__elem:hover {
+    background-image: url("../../img/facebook-hover.png");
+}
+
+
+.social__link--icon--insta .social__elem {
+    background-image: url("../../img/insta.png");
+}
+
+.social__link--icon--insta .social__elem:hover {
+    background-image: url("../../img/insta-hover.png");
+}
+
+
+
+
+
+.footer__container {
+    border-top:  4px solid #000;
+}
